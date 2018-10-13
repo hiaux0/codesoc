@@ -1,2 +1,0 @@
-# codesoc
-Created with CodeSandbox
