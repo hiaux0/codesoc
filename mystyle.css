@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 30px;
+  background: #1e1a1a;
+  color: #b19d9d;
+  height: 1300px;
+}
+
+.student-card-container {
+  display: grid;
+  /* grid-template-columns: 350px 350px 350px; */
+  grid-template-columns: repeat(3, 350px);
+  grid-gap: 30px;
+  background-color: #1d0e0e;
+  color: #b19d9d;
+
+  height: 100%;
+}
+
+[class^="student-card"] {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+
+  /* height: 300px; */
+  border: 1px solid red;
+}
+
+/* Dark theme var 1
+base 2F2727 
+dark1 170606 
+dark2 251313 
+light1 8C6D6D 
+light2 E1B8B8 
+*/
+
+/* Dark theme var 2 <<
+base 6F6262 
+dark1 1D0E0E 
+dark2 1E1A1A 
+light1 B19D9D 
+light2 FFEEEE 
+*/
